@@ -1,0 +1,8 @@
+{
+  "name": "com.intelami.local.dockers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:intelami/com.intelami.local.dockers.git",
+  "author": "Mark Smith <mark@shapemydata.com>",
+  "license": "MIT"
+}
