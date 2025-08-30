@@ -8,3 +8,10 @@ services:
     environment:
       RABBITMQ_DEFAULT_USER: user
       RABBITMQ_DEFAULT_PASS: password
+
+  mongo:
+    image: candis/mongo-replica-set
+    ports:
+      - "27017:27017"
+      - "27018:27018"
+      - "27019:27019"
